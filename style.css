@@ -32,8 +32,19 @@ header a:hover{
 .barra-lateral{
     border-right:  0.1px solid #fff ;
   }
+.image-1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+h2{
+  margin-top: 180px;
+  margin-left: 70px;
+  color: #fff;
+}
 .image-2{
-    position: absolute; 
+  position: absolute; 
 	right: 1px;
 	top: 100px;
 }
