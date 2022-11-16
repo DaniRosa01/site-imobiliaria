@@ -3,11 +3,23 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
   }
 body{
     background-color: #0c1444;
     font-family: 'Lato';
 }
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.min-width{
+  max-width: 1300px;
+  padding: 0 100px;
+  margin-top: 140px;
+}
+/* NAVEGADOR */
 .menu {
     display: flex;
     flex-direction: row;
@@ -18,10 +30,10 @@ body{
   display: flex;
   flex-direction: row;
   color: aliceblue;
-  text-decoration: none;
   font-size: 15px;
+  transition: all 0.3 ease;
 }
-header a:hover{
+nav a:hover{
     color: 	#eda14c;
 }
 .menu > li {
@@ -32,16 +44,20 @@ header a:hover{
 .barra-lateral{
     border-right:  0.1px solid #fff ;
   }
+  /* HOME INÍCIO */
 .image-1{
   display: flex;
   flex-direction: column;
-  margin-left: 70px;
+  margin-left: -45px;
   margin-top: 70px;
 }
-h2{
-  margin-top: 180px;
-  margin-left: 70px;
+.phone{
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 45px;
   color: #fff;
+  font-size: 30px;
 }
 .image-2{
   position: absolute; 
