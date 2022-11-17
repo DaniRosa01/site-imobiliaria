@@ -14,11 +14,6 @@ body{
   padding: 0 80px;
   margin: auto;
 }
-.min-width{
-  max-width: 1300px;
-  padding: 0 100px;
-  margin-top: 140px;
-}
 /* NAVEGADOR */
 .menu {
     display: flex;
@@ -63,4 +58,99 @@ nav a:hover{
   position: absolute; 
 	right: 1px;
 	top: 100px;
+}
+/* SLIDE */
+.min-width{
+  max-width: 1400px;
+  height: 450px;
+  padding: 0 100px;
+  margin-top: 150px;
+}
+.carousel{
+  overflow: hidden;
+  height: 350px;
+  width: 1300px;
+}
+.card-1{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0)
+}
+.emphasis{
+  object-fit: cover;
+  height: 350px;
+  width: 1080px;
+}
+/* DESTAQUES DE VENDAS E ALUGUEIS */
+.title-1{
+  text-align: center;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+  color: 	#eda14c;
+  position: relative;
+  letter-spacing: 6px;
+}
+.title-2{
+  text-align: center;
+  font-size: 75px;
+  font-family: "Source Sans Pro";
+  color: 	#fff;
+  position: relative;
+  letter-spacing: 6px;
+}
+.card-2 {
+  display: inline-block;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 20px 25px;
+  cursor: pointer;
+  margin: 8px;
+  margin-left: 55px;
+  transition: all0.3s ease;
+  margin-bottom: 150px;
+  margin-top: 80px;
+}
+.text-1{
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  letter-spacing: 4px;
+  color: #0c1444cb;
+  font-weight: 500;
+}
+.text-2{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color:  #0c1444cb;
+}
+.text-3{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color:  #0c1444cb;
+}
+.text-4{
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 22px;
+  letter-spacing: 4px;
+  color: #eda14c;
+}
+footer img{
+  margin-left: 650px;
+}
+footer ul{
+  list-style: none;
+  display: grid;
+  width: 40%;
+  font-weight: 50;
+  font-size: 14px;
+  margin-bottom: 30px;
+  grid-template-columns: auto auto auto;
+  letter-spacing: 1.5px;
 }
