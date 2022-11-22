@@ -170,6 +170,7 @@ a{
   letter-spacing: 4px;
   color: #eda14c;
 }
+/* RODAPÉ */
 footer{
   position: relative;
   width: 100%;
@@ -181,7 +182,7 @@ footer{
   box-shadow: 0 0 10px #0009;
   z-index: 3;
 }
-footer img{
+footer .img-1{
   top: -20px;
   position: absolute;
 }
@@ -235,4 +236,10 @@ footer p{
   display: grid;
   grid-template-columns: 1fr;
   width: clamp(200px, 90%, 1200px);
+}
+footer .dev{
+  margin-right: 1070px;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #ff0084;
 }
