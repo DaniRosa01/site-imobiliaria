@@ -50,14 +50,29 @@ nav a:hover{
   display: flex;
   flex-direction: column;
   margin-top: 150px;
-  margin-left: 45px;
+  margin-left: 25px;
   color: #fff;
   font-size: 30px;
+}
+.phone .phone2{
+  margin-right: 15px;
 }
 .image-2{
   position: absolute; 
 	right: 1px;
 	top: 100px;
+}
+.whatsapp{
+  display: flex;
+  position: fixed;
+  top: 120px;
+  left: 1270px;
+  animation: fadeInFadeOut 1s linear infinite;
+}
+@keyframes fadeInFadeOut{
+  0% {opacity: 1;}
+  50% {opacity: 0.5;}
+  100%{opacity: 1;}
 }
 .mySlides {display: none;}
 img {vertical-align: middle;}
@@ -133,7 +148,6 @@ a{
   text-align: center;
   border-radius: 2px;
   padding: 20px 25px;
-  cursor: pointer;
   margin: 8px;
   margin-left: 55px;
   transition: all0.3s ease;
@@ -154,6 +168,13 @@ a{
   font-size: 14px;
   letter-spacing: 2px;
   color:  #0c1444cb;
+}
+.square{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  margin-left: 280px;
+  margin-top: 10px;
 }
 .text-3{
   display: flex;
