@@ -40,6 +40,9 @@ nav a:hover{
     border-right:  0.1px solid #fff ;
   }
   /* HOME INÍCIO */
+  .img-1{
+    width: 200px;
+  }
 .image-1{
   display: flex;
   flex-direction: column;
@@ -211,7 +214,6 @@ footer a{
   text-align: center;
   transition: opacity .6s;
   margin: 5px;
-
 }
 footer a:hover{
   opacity: .6s;
@@ -259,14 +261,37 @@ footer p{
   width: clamp(200px, 90%, 1200px);
 }
 footer .dev{
-  margin-right: 1070px;
   margin-top: 40px;
   font-size: 14px;
   color: #ff0084;
 }
-
-
-.best{
-  text-align: end;
-  
+/* responsividade */
+@media (max-width: 1333px){
+  .menu{
+    margin-left: 450px;
+  }
+  .image-2{
+    right: 35px;
+  }
+  .whatsapp{
+    left: 1100px;
+    position: fixed;
+  }
+  .card-2{
+    margin:0;
+    margin-left: 55px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1277px){
+  .img-1{
+    width: 100px;
+  }
+  .phone{
+    font-size: 18px;
+  }
+  .phone-2{
+    font-size: 10px;
+  }
 }
